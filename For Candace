@@ -1,0 +1,7 @@
+l = input("What number would you like your 'times-table' to start at?")
+l = int(l)
+n = input("What number would you like your times table to go to?")
+n = int(n)
+for x in range(l,n+1):    
+    for y in range(0,n+1):
+                    print(str(x)+" times "+str(y)+" is "+str(x*y))
